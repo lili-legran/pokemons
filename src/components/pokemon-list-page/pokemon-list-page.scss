@@ -1,0 +1,18 @@
+.pokemon {
+  padding: var(--padding-m);
+  color: #fff;
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 var(--padding-m);
+  }
+}
+
+@media (max-width: 1280px) {
+  .pokemon {
+    &-list {
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.pokemon-card {
+  box-shadow: var(--box-shadow);
+  padding: var(--padding-s);
+  margin: var(--margin-s);
+  text-decoration: none;
+  transition: all .3s;
+  &:hover {
+    box-shadow: var(--hover-box-shadow);
+  }
+  &__img {
+    margin-bottom: var(--margin-s);
+    width: 200px;
+    height: 200px;
+  }
+  &__name {
+    text-align: center;
+    color: #fffa68;
+  }
+}
